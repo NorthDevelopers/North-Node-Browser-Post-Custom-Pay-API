@@ -1,12 +1,12 @@
 # Securely Embed Payments in a NodeJS App and Accept Refunds
-This is a JavaScript application that uses Node.js to demonstrate accepting a payment with an ecommerce payment form using <a href='https://developer.paymentshub.com/products/card-not-present/browser-post'>North's Browser Post API</a>, then using the returned transaction token to perform a refund on the sale using <a href='https://developer.paymentshub.com/products/full-featured/custom-pay-api'>North's Custom Pay API</a>. The code in this repository handles both the front-end and back-end payment process.
+This is a JavaScript application that uses Node.js to demonstrate accepting a payment with an ecommerce payment form using <a href='https://developer.north.com/products/online/browser-post'>North's Browser Post API</a>, then using the returned transaction token to perform a refund on the sale using <a href='https://developer.north.com/products/full-featured/custom-pay-api'>North's Custom Pay API</a>. The code in this repository handles both the front-end and back-end payment process.
 
 ## Get Sandbox Credentials
-To get started, create a free <a href='https://developer.paymentshub.com/auth/signup'>North Developer Portal account</a>. This will allow you to get the sandbox credentials that are required to test the app. Log in to your account to view the official <a href='https://developer.paymentshub.com/products/card-not-present/browser-post/integration'>Browser Post API Integration Guide</a> and <a href='https://developer.paymentshub.com/products/full-featured/custom-pay-api/integration'>Custom Pay API Integration Guide</a>, then <a href='https://developer.paymentshub.com/contact'>contact</a> North's Sales Engineering team to get sandbox credentials added to your Developer Portal account.
+To get started, create a free <a href='https://developer.north.com/register'>North Developer Portal account</a>. This will allow you to get the sandbox credentials that are required to test the app. Log in to your account to view the official <a href='https://developer.north.com/products/online/browser-post/integration-guide'>Browser Post API Integration Guide</a> and <a href='https://developer.north.com/products/full-featured/custom-pay-api/integration-guide'>Custom Pay API Integration Guide</a>, then <a href='https://developer.north.com/contact'>contact</a> North's Sales Engineering team to get sandbox credentials added to your Developer Portal account.
 
 ## Follow Along with the Tutorial
 When you're ready to start building your app, you can follow along with [this tutorial](
-https://developer.paymentshub.com/blog/tutorial-nodejs-browser-post-custom-pay-api) for step-by-step instructions.
+https://developer.north.com/blog/tutorial-nodejs-browser-post-custom-pay-api) for step-by-step instructions.
 
 ## Completed App
 Your completed ecommerce app will look similar to the following. Click the Pay button to open the payment form:
